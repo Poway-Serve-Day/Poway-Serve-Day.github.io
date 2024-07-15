@@ -400,8 +400,13 @@ a.center-text {
     }
 
     #navbar__logo{
-        padding-left: 25px;
-    }
+    display: flex;
+    align-items: right;
+    cursor: pointer;
+    padding-left: -1Rem;
+    z-index: 999;
+    scale: 10%;
+}
 
     .navbar__toggle .bar{
         width: 25px;
