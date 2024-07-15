@@ -462,6 +462,7 @@ a.center-text {
     /* Body and Top */
     body{
         width: 110%;
+        overflow-x: hidden;
     }
 
     .top{
